@@ -1,0 +1,9 @@
+.button:hover {
+	background: #2B4D6E;
+}
+.transition {
+    -webkit-transition: .0s ease-in-out;
+    -moz-transition: .0s ease-in-out;
+    -o-transition: .0s ease-in-out;
+    transition: .0s ease-in-out
+}
