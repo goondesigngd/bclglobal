@@ -36,7 +36,7 @@ class ColaboreController extends Controller
         $arr_bancos = $pub->connect($arrParams);
 
         // Botões
-        $arrParams["filter_params"] = array("codpagina" => 19, "ordem" => array("datapublicacao" => "ASC"), "imglimite" => 0);
+        $arrParams["filter_params"] = array("codpagina" => 19, "ordem" => array("datapublicacao" => "ASC"), "idioma" => Config::get('app.locale'), "imglimite" => 0);
         $pub = new SequenceServiceModel();
         $arr_botoes = $pub->connect($arrParams);
 

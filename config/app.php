@@ -95,15 +95,15 @@ return [
 
     'languages' => array(
 
-        'en',
+		'pt', 'en', 'es'
 
-    ),
+	),
 
     'locales' => array(
 
-        'en',
+		'pt', 'en', 'es'
 
-    ),
+	),
 
     'locale' => 'en',
 

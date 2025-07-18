@@ -1,6 +1,7 @@
 @extends("main")
 @section("content")
     <section class="pag" id="top"></section>
+    
     <section>
         @for($i = 0; $i < count($arr_colabore); $i++)
             <div class="center">
@@ -9,12 +10,14 @@
                     <h1>{{ Util::getPropFromArray($arr_colabore, $i, 'titulo') }}</h1>
                 </div>
 
+                @if(Util::getPropFromArray($arr_colabore, $i, 'link'))
                 <a href="{{ Util::checkExternalLink(Util::getPropFromArray($arr_colabore, $i, 'link')) }}" target="_blank">
                     <button class="button button_isi button_margin transition">
                         <span class="icon-right-arrow_line"></span>
                         {{ Util::getPropFromArray($arr_colabore, $i, 'titulolink') }}
                     </button>
                 </a>
+                @endif
 
                 <p>{!! nl2br(Util::getPropFromArray($arr_colabore, $i, 'texto')) !!}</p>
 

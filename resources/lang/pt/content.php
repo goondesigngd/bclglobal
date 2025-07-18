@@ -4,7 +4,7 @@ return [
 
     "geral" => [
         "menu-home" => "Home",
-        "menu-empresa" => "bccl",
+        "menu-empresa" => "Sobre o BCL",
         "menu-capacitacao" => "Formação",
         "menu-trabalhos" => "Notícias",
         "menu-colaborar" => "Colabore",
