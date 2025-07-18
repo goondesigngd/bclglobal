@@ -53,7 +53,8 @@
                         <div style="clear: both;"></div>
                     </div>
                 </div>
-                <div class="col1_right map">{!! Util::getPropSimpleFromArray($arr_loja, 'iframemap') !!}</div>
+                <!-- <div class="col1_right map">{!! Util::getPropSimpleFromArray($arr_loja, 'iframemap') !!}</div> -->
+                 <img class="globe" src="{{ asset('img/globe.svg') }}{{ Util::getQueryStringVersion() }}" alt="" aria-hidden="true">
             </div>
         </div>
     </section>

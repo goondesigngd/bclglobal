@@ -76,25 +76,25 @@ section {
 @font-face {
   font-family: Montserrat-Bold;
   src: url(fonts/Montserrat-Bold.eot);
-  src: url(fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(fonts/Montserrat-Bold.woff) format("woff"),
-    url(fonts/Montserrat-Bold.ttf) format("truetype"), url(fonts/Montserrat-Bold.svg#svgFontName) format("svg");
+  src: url(fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'), url(fonts/Montserrat-Bold.woff) format('woff'),
+    url(fonts/Montserrat-Bold.ttf) format('truetype'), url(fonts/Montserrat-Bold.svg#svgFontName) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Montserrat-ExtraLight;
   src: url(fonts/Montserrat-ExtraLight.eot);
-  src: url(fonts/Montserrat-ExtraLight.eot?#iefix) format("embedded-opentype"),
-    url(fonts/Montserrat-ExtraLight.woff) format("woff"), url(fonts/Montserrat-ExtraLight.ttf) format("truetype"),
-    url(fonts/Montserrat-ExtraLight.svg#svgFontName) format("svg");
+  src: url(fonts/Montserrat-ExtraLight.eot?#iefix) format('embedded-opentype'),
+    url(fonts/Montserrat-ExtraLight.woff) format('woff'), url(fonts/Montserrat-ExtraLight.ttf) format('truetype'),
+    url(fonts/Montserrat-ExtraLight.svg#svgFontName) format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Regular;
   src: url(fonts/Regular.eot);
-  src: url(fonts/Regular.eot?#iefix) format("embedded-opentype"), url(fonts/Regular.woff) format("woff"),
-    url(fonts/Regular.ttf) format("truetype"), url(fonts/Regular.svg#svgFontName) format("svg");
+  src: url(fonts/Regular.eot?#iefix) format('embedded-opentype'), url(fonts/Regular.woff) format('woff'),
+    url(fonts/Regular.ttf) format('truetype'), url(fonts/Regular.svg#svgFontName) format('svg');
   font-weight: 400;
   font-style: normal;
 }
@@ -797,7 +797,7 @@ nav p {
   background: var(--color-c);
   position: absolute;
   z-index: 1010;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
   filter: alpha(opacity=80);
   -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
@@ -1192,7 +1192,7 @@ textarea {
   border: 1px solid var(--color-d);
 }
 .button_isi::before {
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   top: 50%;
@@ -1228,7 +1228,7 @@ textarea {
   color: var(--color-c);
 }
 .button_isi2::before {
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   top: 50%;
@@ -1617,5 +1617,24 @@ textarea {
   }
   .back_video {
     display: none;
+  }
+}
+
+.globe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0 0 0 50%;
+  object-fit: cover;
+  object-position: left center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .globe {
+    inset: 0;
+    object-position: center;
+    padding: 3rem 0;
+    opacity: 0.1;
   }
 }
