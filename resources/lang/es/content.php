@@ -4,7 +4,7 @@ return [
 
     "geral" => [
         "menu-home" => "Home",
-        "menu-empresa" => "Sobre o CBL",
+        "menu-empresa" => "Sobre el CBL",
         "menu-capacitacao" => "Formación",
         "menu-trabalhos" => "Noticias",
         "menu-colaborar" => "Colabore",
