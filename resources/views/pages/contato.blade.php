@@ -28,7 +28,7 @@
     <section class="projeto contacts">
         <div class="col1 col1_color">
             <div class="center">
-                <div class="col1_left" style="padding-top: 70px;">
+                <div class="col1_left" style="padding-top: 70px; position: relative; z-index: 1;">
                     <div class="col_form">
                         <form id="formContato">
                             {{ csrf_field() }}

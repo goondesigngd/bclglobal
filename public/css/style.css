@@ -4,8 +4,8 @@
   --color-c: #212721;
   --color-d: #d8dcd8;
 
-  --color-success: #00ff00;
-  --color-error: #ff0000;
+  --color-success: #008000;
+  --color-error: #cf0000;
 }
 
 /* ------------- pattern Goon */
@@ -76,8 +76,10 @@ section {
 @font-face {
   font-family: Montserrat-Bold;
   src: url(fonts/Montserrat-Bold.eot);
-  src: url(fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'), url(fonts/Montserrat-Bold.woff) format('woff'),
-    url(fonts/Montserrat-Bold.ttf) format('truetype'), url(fonts/Montserrat-Bold.svg#svgFontName) format('svg');
+  src: url(fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),
+    url(fonts/Montserrat-Bold.woff) format('woff'),
+    url(fonts/Montserrat-Bold.ttf) format('truetype'),
+    url(fonts/Montserrat-Bold.svg#svgFontName) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -85,7 +87,8 @@ section {
   font-family: Montserrat-ExtraLight;
   src: url(fonts/Montserrat-ExtraLight.eot);
   src: url(fonts/Montserrat-ExtraLight.eot?#iefix) format('embedded-opentype'),
-    url(fonts/Montserrat-ExtraLight.woff) format('woff'), url(fonts/Montserrat-ExtraLight.ttf) format('truetype'),
+    url(fonts/Montserrat-ExtraLight.woff) format('woff'),
+    url(fonts/Montserrat-ExtraLight.ttf) format('truetype'),
     url(fonts/Montserrat-ExtraLight.svg#svgFontName) format('svg');
   font-weight: 400;
   font-style: normal;
@@ -93,8 +96,10 @@ section {
 @font-face {
   font-family: Regular;
   src: url(fonts/Regular.eot);
-  src: url(fonts/Regular.eot?#iefix) format('embedded-opentype'), url(fonts/Regular.woff) format('woff'),
-    url(fonts/Regular.ttf) format('truetype'), url(fonts/Regular.svg#svgFontName) format('svg');
+  src: url(fonts/Regular.eot?#iefix) format('embedded-opentype'),
+    url(fonts/Regular.woff) format('woff'),
+    url(fonts/Regular.ttf) format('truetype'),
+    url(fonts/Regular.svg#svgFontName) format('svg');
   font-weight: 400;
   font-style: normal;
 }
