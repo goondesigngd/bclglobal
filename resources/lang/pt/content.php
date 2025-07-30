@@ -14,6 +14,7 @@ return [
         "menu-footer-idioma" => "Idiomas",
         "copyright" => "Copyright, Todos os direitos reservados, 2024",
         "tooltip" => "❤ Desenvolvido com muito amor por Goon Design e Tecnologia.",
+        "sufixo" => "pt",
     ],
 
     "home" => [

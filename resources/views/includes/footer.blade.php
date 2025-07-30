@@ -23,7 +23,7 @@
 		@endif
 		<div class="center">
 			<div class="foo_col1">
-				<a href="{{ route('home') }}" class="foo_logo"><img src="{{ asset('img/logo-dark.svg') }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}"></a>
+				<a href="{{ route('home') }}" class="foo_logo"><img src="{{ asset('img/logo-dark-' . trans('content.geral.sufixo') . '.svg') }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}"></a>
 			</div>
 			<div class="foo_col3">
 				<h2>@lang('content.geral.menu-contatos')</h2>
