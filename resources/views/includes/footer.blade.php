@@ -23,7 +23,7 @@
 		@endif
 		<div class="center">
 			<div class="foo_col1">
-				<a href="{{ route('home') }}" class="foo_logo"><img src="{{ asset('img/logo-dark.svg') }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}"></a>
+				<a href="{{ route('home') }}" class="foo_logo"><img src="{{ asset('img/logo-dark-' . trans('content.geral.sufixo') . '.svg') }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}"></a>
 			</div>
 			<div class="foo_col3">
 				<h2>@lang('content.geral.menu-contatos')</h2>
@@ -49,7 +49,7 @@
 				<a href="{{ route('contato') }}"><p>@lang('content.geral.menu-contatos')</p></a>
 				<br/>
 				<br/>
-				<!-- <h2>@lang('content.geral.menu-footer-idioma')</h2>
+				 <h2>@lang('content.geral.menu-footer-idioma')</h2>
 				@if(Config::get('app.locale') == 'en')
 					<a href="{{ asset('en/home') }}" class="language_active">EN  </a>
 				@else
@@ -64,7 +64,7 @@
 					<a href="{{ asset('es/home') }}" class="language_active">ES</a>
 				@else
 					<a href="{{ asset('es/home') }}">ES</a>
-				@endif -->
+				@endif 
 			</div>
 			<div class="foo_bottom">
 				<h4>@lang('content.geral.copyright')</h4>

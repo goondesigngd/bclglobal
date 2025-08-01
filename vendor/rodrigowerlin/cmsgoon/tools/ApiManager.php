@@ -150,9 +150,9 @@ trait ApiManager
          */
 
         if (in_array(Util::getPropSimpleFromArray($result, 'modalidadelojavirtual'), array(1, 2))) {
-            $result[0]->imgs[] = Util::assetCustom(Util::getPropSimpleFromArray($result, 'schema'), 'img/opengraph.jpg');
+            $result[0]->imgs[] = Util::assetCustom(Util::getPropSimpleFromArray($result, 'schema'), 'img/opengraph-' . trans('content.geral.sufixo') . '.jpg');
         } else {
-            $result[0]->imgs[] = asset('img/opengraph.jpg');
+            $result[0]->imgs[] = asset('img/opengraph-' . trans('content.geral.sufixo') . '.jpg');
         }
 
         return $result;

@@ -3,8 +3,8 @@
 	<div class="header transition">
 
 		<a href="{{ asset('/') }}" class="logo">
-			<img class="transition logo_white" src="{{ asset('img/'.Lang::get('content.geral.logo-marca')) }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
-			<img class="transition logo_color" src="{{ asset('img/'.Lang::get('content.geral.logo-marca')) }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
+			<img class="transition logo_white" src="{{ asset('img/logo-' . trans('content.geral.sufixo')  . '.svg') }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
+			<img class="transition logo_color" src="{{ asset('img/logo-' . trans('content.geral.sufixo')  . '.svg') }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
 		</a>
 		
 		<div class="header_menu transition">
@@ -17,7 +17,7 @@
     </div>
 	<div class="menu transition">
 		<nav>
-			<!-- <div class="language">
+			 <div class="language">
 				@if(Config::get('app.locale') == 'en')
 					<a href="{{ asset('en/home') }}" class="language_active">EN  </a>
 				@else
@@ -33,7 +33,7 @@
 				@else
 					<a href="{{ asset('es/home') }}">ES</a>
 				@endif
-			</div> -->
+			</div>
 			<a href="{{ route('home') }}"><h1>@lang('content.geral.menu-home')</h1></a><br>
 			<a href="{{ route('empresa') }}"><h1>@lang('content.geral.menu-empresa')</h1></a><br>
 			<a href="{{ route('capacitacao') }}"><h1>@lang('content.geral.menu-capacitacao')</h1></a><br>
