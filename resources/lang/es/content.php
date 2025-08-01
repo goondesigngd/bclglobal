@@ -14,6 +14,7 @@ return [
         "menu-footer-idioma" => "Idioma",
         "copyright" => "Copyright, Todos los derechos reservados, 2024",
         "tooltip" => "❤ Desarrollado con seriedad y compromiso por Goon Diseño y Tecnologia.",
+        "logo-marca" => "logo-es.svg",
     ],
 
     "home" => [

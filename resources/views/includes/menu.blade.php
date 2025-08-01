@@ -1,10 +1,12 @@
 <div id="loader"></div>
 <header class="transition">
 	<div class="header transition">
+
 		<a href="{{ asset('/') }}" class="logo">
-			<img class="transition logo_white" src="{{ asset('img/logo.svg') }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
-			<img class="transition logo_color" src="{{ asset('img/logo.svg') }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
+			<img class="transition logo_white" src="{{ asset('img/'.Lang::get('content.geral.logo-marca')) }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
+			<img class="transition logo_color" src="{{ asset('img/'.Lang::get('content.geral.logo-marca')) }}{{ Util::getQueryStringVersion() }}" alt="{{ Util::getPropSimpleFromArray($arr_meta, 'title') }}">
 		</a>
+		
 		<div class="header_menu transition">
 			<div class="hamburger" id="hamburger-1">
 	          <span class="line"></span>

@@ -4,7 +4,7 @@ return [
 
     "geral" => [
         "menu-home" => "Home",
-        "menu-empresa" => "Sobre o BCL",
+        "menu-empresa" => "Sobre o CBL",
         "menu-capacitacao" => "Formação",
         "menu-trabalhos" => "Notícias",
         "menu-colaborar" => "Colabore",
@@ -14,6 +14,7 @@ return [
         "menu-footer-idioma" => "Idiomas",
         "copyright" => "Copyright, Todos os direitos reservados, 2024",
         "tooltip" => "❤ Desenvolvido com muito amor por Goon Design e Tecnologia.",
+        "logo-marca" => "logo-pt.svg",
     ],
 
     "home" => [

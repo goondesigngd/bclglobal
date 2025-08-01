@@ -14,6 +14,7 @@ return [
         "menu-footer-idioma" => "Languages",
         "copyright" => "Copyright, All rights reserved, 2024",
         "tooltip" => "❤ Developed with lots of love for Goon Design and Technology.",
+        "logo-marca" => "logo-en.svg",
     ],
 
     "home" => [
