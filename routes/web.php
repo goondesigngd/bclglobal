@@ -20,6 +20,7 @@ Route::group(array('prefix' => Session::get('locale')), function () {
     Route::get('/' . Lang::get('routes.capacitacao'), "CapacitacaoController@content")->name("capacitacao");
     Route::get('/' . Lang::get('routes.materia') . '/{cod}/{materia}', "CapacitacaoController@detail")->where('cod', '[0-9]+')->name("materia");
     Route::get('/' . Lang::get('routes.materiais'), "MateriaisController@content")->name("materiais");
+    Route::get('/' . Lang::get('routes.membros'), "MembrosController@content")->name("membros");
 
     Route::group(['prefix' => '/' . Lang::get('routes.colaborar')], function () {
         Route::get('/', "ColaboreController@content")->name("colaborar");

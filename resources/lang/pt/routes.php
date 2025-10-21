@@ -10,6 +10,7 @@ return [
     "colaborar" => "colabore",
     "canais-doacoes" => "canais-doacoes",
     "trabalhos" => "noticias",
-    "contato" => "contato"
+    "contato" => "contato",
+    "membros" => "membros"
 
 ];

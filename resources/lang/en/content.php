@@ -10,6 +10,7 @@ return [
         "menu-colaborar" => "Donate",
         "menu-materiais" => "Downloads",
         "menu-contatos" => "Contact",
+        "menu-membros" => "Members",
         "menu-navegue" => "Navigate",
         "menu-footer-idioma" => "Languages",
         "copyright" => "Copyright, All rights reserved, 2024",
@@ -73,4 +74,8 @@ return [
         "fotos" => "Photo gallery",
     ],
 
+    "membros" => [
+        "titulo" => "Board Members",
+        "botao-detalhes" => "Read bio",
+    ],
 ];

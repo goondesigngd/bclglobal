@@ -10,6 +10,7 @@ return [
     "colaborar" => "collaborate",
     "canais-doacoes" => "donation-channels",
     "trabalhos" => "jobs",
-    "contato" => "contact"
+    "contato" => "contact",
+    "membros" => "members"
 
 ];

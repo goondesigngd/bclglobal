@@ -41,6 +41,7 @@
 			<a href="{{ route('colaborar') }}"><h1>@lang('content.geral.menu-colaborar')</h1></a><br>
 			<!-- <a href="{{ route('materiais') }}"><h1>@lang('content.geral.menu-materiais')</h1></a><br> -->
 			<a href="{{ route('contato') }}"><h1>@lang('content.geral.menu-contatos')</h1></a><br>
+			<a href="{{ route('membros') }}"><h1>@lang('content.geral.menu-membros')</h1></a><br>
 			<br><br>
 			<!-- <a href="{{ Util::getPropSimpleFromArray($arr_loja, 'facebook') }}" target="_blank"><span class="icon-facebook-logo-2"></span></a> -->
 			<a href="{{ Util::getPropSimpleFromArray($arr_loja, 'instagram') }}" target="_blank"><span class="icon-instagram-logo"></span></a>

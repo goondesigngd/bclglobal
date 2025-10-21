@@ -10,6 +10,7 @@ return [
         "menu-colaborar" => "Colabore",
         "menu-materiais" => "Downloads",
         "menu-contatos" => "Contato",
+        "menu-membros" => "Membros",
         "menu-navegue" => "Navegue",
         "menu-footer-idioma" => "Idiomas",
         "copyright" => "Copyright, Todos os direitos reservados, 2024",
@@ -73,4 +74,8 @@ return [
         "fotos" => "Galeria de fotos",
     ],
 
+    "membros" => [
+        "titulo" => "Membros do Conselho",
+        "botao-detalhes" => "Ler biografia",
+    ],
 ];
